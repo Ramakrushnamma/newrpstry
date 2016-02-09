@@ -1,16 +1,300 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <parent>
-        <artifactId>core-ui</artifactId>
-        <groupId>com.tradeleaves.core.ui</groupId>
-        <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
-    </parent>
-    <groupId>com.tradeleaves.core.ui</groupId>
-    <artifactId>profile</artifactId>
-    <packaging>jar</packaging>
-    
+<div id="col_channels" class="show_presence channels_list_holder no_just_unreads">
+					<div id="col_channels_overlay" class="onboarding_overlay hidden">
+						<div class="overlay_mock_text forty_percent_width"></div>
+						<div class="overlay_mock_text fifty_percent_width"></div>
+						<div class="overlay_mock_text thirty_five_percent_width"></div>
+					</div>
+
+					<div id="monkey_scroll_wrapper_for_channels_scroller" class="monkey_scroll_wrapper "><div class="monkey_scroll_bar" style="margin-left: 207.5px; height: 483px;"><div class="monkey_scroll_handle " style="left: -3px; height: 347.334px; top: 0px;">	<div class="monkey_scroll_handle_inner "></div></div></div><div class="monkey_scroll_hider  scrolling" style="width: 203px; margin-right: 17px;"><div id="channels_scroller" class="monkey_scroller" style="height: 489px; visibility: visible; width: 220px;">
+
+						<div id="starred_div" class="starred_section section_holder hidden">
+							<h2 id="starred_section_header" class="overflow_ellipsis"><i class="ts_icon ts_icon_star" style="font-size: 14px;"></i> Starred</h2>
+							<ul id="starred-list"></ul>
+						</div>
+
+						<div id="channels" class="section_holder">
+							<span id="new_channel_btn" class="ts_icon ts_icon_plus_circle channels_list_new_btn" data-toggle="tooltip" title="" data-original-title="Create new channel"></span>
+							<h2 id="channels_header" class="hoverable">
+																	<span class="channel_list_header_label" data-qa="channel_list_header_label" data-toggle="tooltip" title="" data-original-title="Browse all channels">Channels <span class="header_count">(<span id="channel_header_count">11</span>)</span></span>															</h2>
+							<ul id="channel-list">	<li class="channel_C04HF1UG9 channel ">
+		<div class="hotness_icon hidden" id="hotness_C04HF1UG9"><span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(https://slack.global.ssl.fastly.net/d4bf/img/emoji_2015_2/sheet_apple_64_indexed_256colors.png);background-position:57.5% 62.5%;background-size:4100%"></span></span></div>
+		<a class="channel_name" data-channel-id="C04HF1UG9">
+			<span class="unread_just_C04HF1UG9 unread_just hidden">
+				0
+			</span>
+			<span class="unread_highlight_C04HF1UG9 unread_highlight hidden">
+				0
+			</span>
+			<span class="overflow_ellipsis">					<span class="prefix">#</span>
+				devupdate
+			</span>
+		</a>
+	</li>
+	<li class="channel_C0F1ZRZPD channel ">
+		<div class="hotness_icon hidden" id="hotness_C0F1ZRZPD"><span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(https://slack.global.ssl.fastly.net/d4bf/img/emoji_2015_2/sheet_apple_64_indexed_256colors.png);background-position:57.5% 62.5%;background-size:4100%"></span></span></div>
+		<a class="channel_name" data-channel-id="C0F1ZRZPD">
+			<span class="unread_just_C0F1ZRZPD unread_just hidden">
+				0
+			</span>
+			<span class="unread_highlight_C0F1ZRZPD unread_highlight hidden">
+				0
+			</span>
+			<span class="overflow_ellipsis">					<span class="prefix">#</span>
+				docker
+			</span>
+		</a>
+	</li>
+	<li class="channel_C03FCTE3D channel ">
+		<div class="hotness_icon hidden" id="hotness_C03FCTE3D"><span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(https://slack.global.ssl.fastly.net/d4bf/img/emoji_2015_2/sheet_apple_64_indexed_256colors.png);background-position:57.5% 62.5%;background-size:4100%"></span></span></div>
+		<a class="channel_name" data-channel-id="C03FCTE3D">
+			<span class="unread_just_C03FCTE3D unread_just hidden">
+				0
+			</span>
+			<span class="unread_highlight_C03FCTE3D unread_highlight hidden">
+				0
+			</span>
+			<span class="overflow_ellipsis">					<span class="prefix">#</span>
+				general
+			</span>
+		</a>
+	</li>
+	<li class="channel_C0K9G8406 channel ">
+		<div class="hotness_icon hidden" id="hotness_C0K9G8406"><span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(https://slack.global.ssl.fastly.net/d4bf/img/emoji_2015_2/sheet_apple_64_indexed_256colors.png);background-position:57.5% 62.5%;background-size:4100%"></span></span></div>
+		<a class="channel_name" data-channel-id="C0K9G8406">
+			<span class="unread_just_C0K9G8406 unread_just hidden">
+				0
+			</span>
+			<span class="unread_highlight_C0K9G8406 unread_highlight hidden">
+				0
+			</span>
+			<span class="overflow_ellipsis">					<span class="prefix">#</span>
+				git-issues
+			</span>
+		</a>
+	</li>
+	<li class="channel_C07CGEWH1 channel ">
+		<div class="hotness_icon hidden" id="hotness_C07CGEWH1"><span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(https://slack.global.ssl.fastly.net/d4bf/img/emoji_2015_2/sheet_apple_64_indexed_256colors.png);background-position:57.5% 62.5%;background-size:4100%"></span></span></div>
+		<a class="channel_name" data-channel-id="C07CGEWH1">
+			<span class="unread_just_C07CGEWH1 unread_just hidden">
+				0
+			</span>
+			<span class="unread_highlight_C07CGEWH1 unread_highlight hidden">
+				0
+			</span>
+			<span class="overflow_ellipsis">					<span class="prefix">#</span>
+				marketing
+			</span>
+		</a>
+	</li>
+	<li class="channel_C03FCTE3F channel ">
+		<div class="hotness_icon hidden" id="hotness_C03FCTE3F"><span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(https://slack.global.ssl.fastly.net/d4bf/img/emoji_2015_2/sheet_apple_64_indexed_256colors.png);background-position:57.5% 62.5%;background-size:4100%"></span></span></div>
+		<a class="channel_name" data-channel-id="C03FCTE3F">
+			<span class="unread_just_C03FCTE3F unread_just hidden">
+				0
+			</span>
+			<span class="unread_highlight_C03FCTE3F unread_highlight hidden">
+				0
+			</span>
+			<span class="overflow_ellipsis">					<span class="prefix">#</span>
+				random
+			</span>
+		</a>
+	</li>
+	<li class="channel_C0F4265NV channel ">
+		<div class="hotness_icon hidden" id="hotness_C0F4265NV"><span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(https://slack.global.ssl.fastly.net/d4bf/img/emoji_2015_2/sheet_apple_64_indexed_256colors.png);background-position:57.5% 62.5%;background-size:4100%"></span></span></div>
+		<a class="channel_name" data-channel-id="C0F4265NV">
+			<span class="unread_just_C0F4265NV unread_just hidden">
+				0
+			</span>
+			<span class="unread_highlight_C0F4265NV unread_highlight hidden">
+				0
+			</span>
+			<span class="overflow_ellipsis">					<span class="prefix">#</span>
+				scrum
+			</span>
+		</a>
+	</li>
+	<li class="channel_C0HQHDR6U channel ">
+		<div class="hotness_icon hidden" id="hotness_C0HQHDR6U"><span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(https://slack.global.ssl.fastly.net/d4bf/img/emoji_2015_2/sheet_apple_64_indexed_256colors.png);background-position:57.5% 62.5%;background-size:4100%"></span></span></div>
+		<a class="channel_name" data-channel-id="C0HQHDR6U">
+			<span class="unread_just_C0HQHDR6U unread_just hidden">
+				0
+			</span>
+			<span class="unread_highlight_C0HQHDR6U unread_highlight hidden">
+				0
+			</span>
+			<span class="overflow_ellipsis">					<span class="prefix">#</span>
+				ux-product-features
+			</span>
+		</a>
+	</li>
+	<li class="channel_C07CG8MK5 channel ">
+		<div class="hotness_icon hidden" id="hotness_C07CG8MK5"><span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(https://slack.global.ssl.fastly.net/d4bf/img/emoji_2015_2/sheet_apple_64_indexed_256colors.png);background-position:57.5% 62.5%;background-size:4100%"></span></span></div>
+		<a class="channel_name" data-channel-id="C07CG8MK5">
+			<span class="unread_just_C07CG8MK5 unread_just hidden">
+				0
+			</span>
+			<span class="unread_highlight_C07CG8MK5 unread_highlight hidden">
+				0
+			</span>
+			<span class="overflow_ellipsis">					<span class="prefix">#</span>
+				workenv
+			</span>
+		</a>
+	</li>
+</ul>
+							<div class="clear_both"></div>
+						</div>
+
+						<div id="direct_messages" class="section_holder">
+							<span id="new_dm_btn" class="ts_icon ts_icon_plus_circle channels_list_new_btn" data-toggle="tooltip" title="" data-original-title="Open a Direct Message"></span>
+							<h2 id="direct_messages_header" class="hoverable" data-toggle="tooltip" title="" data-original-title="Open a Direct Message">Direct Messages <span class="header_count">(<span id="dm_header_count">16</span>)</span></h2>
+							<ul id="im-list">	<li class="member_USLACKBOT member  cursor_pointer">
+		<div class="hotness_icon hidden" id="hotness_D0HT7145D"><span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(https://slack.global.ssl.fastly.net/d4bf/img/emoji_2015_2/sheet_apple_64_indexed_256colors.png);background-position:57.5% 62.5%;background-size:4100%"></span></span></div>
+		<a class="im_name nuc color_USLACKBOT color_757575" data-member-id="USLACKBOT">
+			<i class="ts_icon ts_icon_times_circle im_close"></i>
+			<span class="unread_highlight_USLACKBOT unread_highlight hidden">0</span>
+			<span class="typing_indicator"></span>
+			<span class="overflow_ellipsis">
+					<i class="ts_icon ts_icon_heart slackbot_icon"></i>
+					slackbot
+			</span>
+		</a>
+	</li>	
+	<li class="member_U03FCTE2Z member  cursor_pointer">
+		<div class="hotness_icon hidden" id="hotness_D0HT1F33N"><span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(https://slack.global.ssl.fastly.net/d4bf/img/emoji_2015_2/sheet_apple_64_indexed_256colors.png);background-position:57.5% 62.5%;background-size:4100%"></span></span></div>
+		<a class="im_name nuc color_U03FCTE2Z color_9f69e7" data-member-id="U03FCTE2Z">
+			<i class="ts_icon ts_icon_times_circle im_close"></i>
+			<span class="unread_highlight_U03FCTE2Z unread_highlight hidden">0</span>
+			<span class="typing_indicator"></span>
+			<span class="overflow_ellipsis">
+					<span data-member-presence="U03FCTE2Z" class="presence active dnd member_presence_U03FCTE2Z" title="active"><i class="ts_icon ts_icon_presence presence_icon"></i></span>
+					bhaskar
+			</span>
+		</a>
+	</li>	
+	<li class="member_U0GVBCY6M member  cursor_pointer">
+		<div class="hotness_icon hidden" id="hotness_D0HT4BRBM"><span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(https://slack.global.ssl.fastly.net/d4bf/img/emoji_2015_2/sheet_apple_64_indexed_256colors.png);background-position:57.5% 62.5%;background-size:4100%"></span></span></div>
+		<a class="im_name nuc color_U0GVBCY6M color_9b3b45" data-member-id="U0GVBCY6M">
+			<i class="ts_icon ts_icon_times_circle im_close"></i>
+			<span class="unread_highlight_U0GVBCY6M unread_highlight hidden">0</span>
+			<span class="typing_indicator"></span>
+			<span class="overflow_ellipsis">
+					<span data-member-presence="U0GVBCY6M" class="presence member_presence_U0GVBCY6M active" title="active"><i class="ts_icon ts_icon_presence presence_icon"></i></span>
+					harikrishna
+			</span>
+		</a>
+	</li>	
+	<li class="member_U09DCLWNL member away  cursor_pointer">
+		<div class="hotness_icon hidden" id="hotness_D0HT6DBPB"><span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(https://slack.global.ssl.fastly.net/d4bf/img/emoji_2015_2/sheet_apple_64_indexed_256colors.png);background-position:57.5% 62.5%;background-size:4100%"></span></span></div>
+		<a class="im_name nuc color_U09DCLWNL color_5b89d5" data-member-id="U09DCLWNL">
+			<i class="ts_icon ts_icon_times_circle im_close"></i>
+			<span class="unread_highlight_U09DCLWNL unread_highlight hidden">0</span>
+			<span class="typing_indicator"></span>
+			<span class="overflow_ellipsis">
+					<span data-member-presence="U09DCLWNL" class="presence away member_presence_U09DCLWNL" title="away"><i class="ts_icon ts_icon_presence presence_icon"></i></span>
+					maniprakash
+			</span>
+		</a>
+	</li>	
+	<li class="member_U0HR4DSLA member away  cursor_pointer">
+		<div class="hotness_icon hidden" id="hotness_D0HT37H7X"><span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(https://slack.global.ssl.fastly.net/d4bf/img/emoji_2015_2/sheet_apple_64_indexed_256colors.png);background-position:57.5% 62.5%;background-size:4100%"></span></span></div>
+		<a class="im_name nuc color_U0HR4DSLA color_bb86b7" data-member-id="U0HR4DSLA">
+			<i class="ts_icon ts_icon_times_circle im_close"></i>
+			<span class="unread_highlight_U0HR4DSLA unread_highlight hidden">0</span>
+			<span class="typing_indicator"></span>
+			<span class="overflow_ellipsis">
+					<span data-member-presence="U0HR4DSLA" class="presence away dnd member_presence_U0HR4DSLA" title="away"><i class="ts_icon ts_icon_presence presence_icon"></i></span>
+					murli
+			</span>
+		</a>
+	</li>	
+	<li class="member_U0H3AH3A4 member active  cursor_pointer">
+		<div class="hotness_icon hidden" id="hotness_D0K4Q8TE0"><span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(https://slack.global.ssl.fastly.net/d4bf/img/emoji_2015_2/sheet_apple_64_indexed_256colors.png);background-position:57.5% 62.5%;background-size:4100%"></span></span></div>
+		<a class="im_name nuc color_U0H3AH3A4 color_d58247" data-member-id="U0H3AH3A4">
+			<i class="ts_icon ts_icon_times_circle im_close"></i>
+			<span class="unread_highlight_U0H3AH3A4 unread_highlight  hidden">0</span>
+			<span class="typing_indicator"></span>
+			<span class="overflow_ellipsis">
+					<span data-member-presence="U0H3AH3A4" class="presence active member_presence_U0H3AH3A4" title="active"><i class="ts_icon ts_icon_presence presence_icon"></i></span>
+					ramya
+			</span>
+		</a>
+	</li>	
+	<li class="member_U0KK307DH member  cursor_pointer">
+		<div class="hotness_icon hidden" id="hotness_D0KK279T7"><span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(https://slack.global.ssl.fastly.net/d4bf/img/emoji_2015_2/sheet_apple_64_indexed_256colors.png);background-position:57.5% 62.5%;background-size:4100%"></span></span></div>
+		<a class="im_name nuc color_U0KK307DH color_db3150" data-member-id="U0KK307DH">
+			<i class="ts_icon ts_icon_times_circle im_close"></i>
+			<span class="unread_highlight_U0KK307DH unread_highlight hidden">0</span>
+			<span class="typing_indicator"></span>
+			<span class="overflow_ellipsis">
+					<span data-member-presence="U0KK307DH" class="presence active member_presence_U0KK307DH" title="active"><i class="ts_icon ts_icon_presence presence_icon"></i></span>
+					sandhya
+			</span>
+		</a>
+	</li>	
+	<li class="member_U0GUYJ6DV member  cursor_pointer">
+		<div class="hotness_icon hidden" id="hotness_D0K79F9AA"><span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(https://slack.global.ssl.fastly.net/d4bf/img/emoji_2015_2/sheet_apple_64_indexed_256colors.png);background-position:57.5% 62.5%;background-size:4100%"></span></span></div>
+		<a class="im_name nuc color_U0GUYJ6DV color_99a949" data-member-id="U0GUYJ6DV">
+			<i class="ts_icon ts_icon_times_circle im_close"></i>
+			<span class="unread_highlight_U0GUYJ6DV unread_highlight hidden">0</span>
+			<span class="typing_indicator"></span>
+			<span class="overflow_ellipsis">
+					<span data-member-presence="U0GUYJ6DV" class="presence active member_presence_U0GUYJ6DV" title="active"><i class="ts_icon ts_icon_presence presence_icon"></i></span>
+					singam
+			</span>
+		</a>
+	</li>	
+	<li class="member_U074DPHDF member  cursor_pointer">
+		<div class="hotness_icon hidden" id="hotness_D0HT4BRC3"><span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(https://slack.global.ssl.fastly.net/d4bf/img/emoji_2015_2/sheet_apple_64_indexed_256colors.png);background-position:57.5% 62.5%;background-size:4100%"></span></span></div>
+		<a class="im_name nuc color_U074DPHDF color_674b1b" data-member-id="U074DPHDF">
+			<i class="ts_icon ts_icon_times_circle im_close"></i>
+			<span class="unread_highlight_U074DPHDF unread_highlight hidden">0</span>
+			<span class="typing_indicator"></span>
+			<span class="overflow_ellipsis">
+					<span data-member-presence="U074DPHDF" class="presence active member_presence_U074DPHDF" title="active"><i class="ts_icon ts_icon_presence presence_icon"></i></span>
+					srinadh
+			</span>
+		</a>
+	</li>	
+	<li class="member_U03FGLERE member  cursor_pointer">
+		<div class="hotness_icon hidden" id="hotness_D0HT37H8D"><span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(https://slack.global.ssl.fastly.net/d4bf/img/emoji_2015_2/sheet_apple_64_indexed_256colors.png);background-position:57.5% 62.5%;background-size:4100%"></span></span></div>
+		<a class="im_name nuc color_U03FGLERE color_e7392d" data-member-id="U03FGLERE">
+			<i class="ts_icon ts_icon_times_circle im_close"></i>
+			<span class="unread_highlight_U03FGLERE unread_highlight hidden">0</span>
+			<span class="typing_indicator"></span>
+			<span class="overflow_ellipsis">
+					<span data-member-presence="U03FGLERE" class="presence member_presence_U03FGLERE active" title="active"><i class="ts_icon ts_icon_presence presence_icon"></i></span>
+					subhankar
+			</span>
+		</a>
+	</li>	
+	<li class="member_U0GUZ8SJ3 member away  cursor_pointer">
+		<div class="hotness_icon hidden" id="hotness_D0HT77H0E"><span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(https://slack.global.ssl.fastly.net/d4bf/img/emoji_2015_2/sheet_apple_64_indexed_256colors.png);background-position:57.5% 62.5%;background-size:4100%"></span></span></div>
+		<a class="im_name nuc color_U0GUZ8SJ3 color_df3dc0" data-member-id="U0GUZ8SJ3">
+			<i class="ts_icon ts_icon_times_circle im_close"></i>
+			<span class="unread_highlight_U0GUZ8SJ3 unread_highlight hidden">0</span>
+			<span class="typing_indicator"></span>
+			<span class="overflow_ellipsis">
+					<span data-member-presence="U0GUZ8SJ3" class="presence away member_presence_U0GUZ8SJ3" title="away"><i class="ts_icon ts_icon_presence presence_icon"></i></span>
+					sukirtydas
+			</span>
+		</a>
+	</li>	
+</ul>
+							<div class="clear_both"></div>
+						</div>
+
+					<span id="channel_list_invites_link_label" class="hidden">There's no one here yet</span>
+					<a id="channel_list_invites_link" class="hidden" data-action="admin_invites_modal" aria-label="Invite People"><i class="ts_icon ts_icon_plus_small float_left"></i> Invite People</a>
+
+					</div></div></div>
+
+					<a id="channel_scroll_up" class="hidden" onclick="TS.client.ui.scrollSoTopUnseenChannelIsInView(this); return false"><span>more unreads</span> <i class="ts_icon ts_icon_arrow_up small_left_margin"></i></a>
+					<a id="channel_scroll_down" class="hidden" onclick="TS.client.ui.scrollSoBottomUnseenChannelIsInView(this); return false"><span>more unreads</span> <i class="ts_icon ts_icon_arrow_down small_left_margin"></i></a>
+
+										<div id="quick_switcher_btn"><i class="ts_icon ts_icon_filter"></i><span id="quick_switcher_label" class="quick_switcher_label_windows_alignment">Quick Switcher</span><span id="quick_switcher_shortcut">Ctrl+K</span></div>
+				</div>
 
 </project>
 <?xml version="1.0" encoding="UTF-8"?>
